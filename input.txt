@@ -1,0 +1,3 @@
+npx rollup .\src\index.js --file dist/bundel.js --format cjs   ==> for rollup bundler
+
+npm rimraf ==> for delet directory and then ex build code

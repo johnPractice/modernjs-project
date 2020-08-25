@@ -2,11 +2,14 @@
   "env": {
     "browser": true,
     "commonjs": true,
-    "es2015": true
+    "es2020": true
   },
   "extends": "eslint:recommended",
   "parserOptions": {
     "ecmaVersion": 5
+  },
+  "globals": {
+    "export": true
   },
   "rules": {
     "semi": ["warn", "always"],
