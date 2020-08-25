@@ -10,7 +10,7 @@
   },
   "rules": {
     "semi": ["warn", "always"],
-    "quotes": ["warn", "double", "single"],
+    "quotes": ["warn", "single"],
     "no-debugger": "error"
   }
 }

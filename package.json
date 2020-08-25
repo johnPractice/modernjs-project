@@ -7,11 +7,27 @@
         "lint": "eslint **/*.js --fix",
         "format": "prettier-eslint --write $PWD/'src/**/*.js"
     },
-    "keywords": [],
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.js": [
+            "npm run lint",
+            "git add"
+        ]
+    },
+    "keywords": [
+        "modernjs",
+        "practice"
+    ],
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "eslint": "^7.7.0",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.11",
         "prettier-eslint": "^11.0.0",
         "prettier-eslint-cli": "^5.0.0"
     }
