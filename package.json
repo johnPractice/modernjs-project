@@ -1,0 +1,18 @@
+{
+    "name": "code-realm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint **/*.js --fix",
+        "format": "prettier-eslint --write $PWD/'src/**/*.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "prettier-eslint": "^11.0.0",
+        "prettier-eslint-cli": "^5.0.0"
+    }
+}
