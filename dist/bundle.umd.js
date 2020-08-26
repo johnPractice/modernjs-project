@@ -1,11 +1,8 @@
-(function (factory) {
-  typeof define === 'function' && define.amd ? define(factory) : factory();
-})(function () {
-  'use strict';
-
-  var name = 'sda dasf d' + 'sdsa dgs' + 'Sfsdfsd' + 'reza';
-  console.log(name);
-
-  var checkHusky = 'sflsdf' + 're';
-  console.log(checkHusky);
-});
+! function(e, n) {
+    "object" == typeof exports && "undefined" != typeof module ? module.exports = n(require("react")) : "function" == typeof define && define.amd ? define(["react"], n) : (e = "undefined" != typeof globalThis ? globalThis : e || self).Learn = n()
+}(this, (function() {
+    "use strict";
+    return function(e) {
+        return null
+    }
+}));

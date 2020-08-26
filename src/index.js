@@ -1,5 +1,7 @@
-var name = 'sda dasf d' + 'sdsa dgs' + 'Sfsdfsd' + 'reza';
-console.log(name);
+// import React from 'react';
 
-var checkHusky = 'sflsdf' + 're';
-console.log(checkHusky);
+const Spinner = (props) => {
+  props;
+};
+
+export default Spinner;
